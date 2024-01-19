@@ -9,7 +9,8 @@ export default function Todo() {
   const [data, setValues] = useState([]);
   const [edit , setEdit] = useState(false)
   const  [completed,setCompleted] = useState([])
-  
+
+   console.log(data)
   function createValue(e){
     setValue(e.target.value)
 
